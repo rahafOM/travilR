@@ -1,0 +1,14 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env", // Preset that allows Babel to compile modern JavaScript into a version compatible with older environments
+      {
+        "targets": {
+          "node": "current" // Specifies that the code should be compiled to be compatible with the current version of Node.js
+        }
+      }
+    ]
+  ]
+}
+
+  
